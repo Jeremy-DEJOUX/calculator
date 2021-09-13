@@ -1,6 +1,8 @@
 const BeautifullScreen = () => {
     return (
-        <h1> it's a BeautifullScreen</h1>
+        <div className="BeautifullScreen">
+            <h1>0</h1>
+        </div>
     )
 }
 
