@@ -1,4 +1,3 @@
-import React from 'react';
 import AmazingNumberButton from './AmazingNumberButton';
 import BeautifullScreen from './BeautifullScreen';
 import GreatOperationButton from './GreatOperationButton';
