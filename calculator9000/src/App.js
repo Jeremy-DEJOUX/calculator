@@ -1,7 +1,12 @@
-const TheTitle = (props) => {
-  return(
-    <h1>Calculator 9000</h1>
-  )
-}
+import React from 'react';
+import Calculator from './Calculator';
 
-export default TheTitle;
+const App = () => {
+  return (
+    <div>
+      <Calculator/>
+    </div>
+  );
+};
+
+export default App;
