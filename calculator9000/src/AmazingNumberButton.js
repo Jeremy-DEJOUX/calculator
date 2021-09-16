@@ -1,17 +1,14 @@
 
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const elements = numbers.map(function(numbers){
+    return <button>{numbers}</button>
+})
 
 const AmazingNumberButton = () => {
     return (
         <div className="amazingnumberbutton">
-            <button className="btn"> 1 </button>
-            <button className="btn"> 2 </button>
-            <button className="btn"> 3 </button>
-            <button className="btn"> 4 </button>
-            <button className="btn"> 5 </button>
-            <button className="btn"> 6 </button>
-            <button className="btn"> 7 </button>
-            <button className="btn"> 8 </button>
-            <button className="btn"> 9 </button>
+            {elements}
         </div>
     )
 }
