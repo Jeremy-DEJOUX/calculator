@@ -2,8 +2,24 @@
     margin: 0;
     padding: 0;
 
-    width: 70%;
-    height: 60%;
-
     background-color: green;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 70%;
+    width: 70%;
+
+    .btn_numbers {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10%;
+        font-size: 5em;
+        color: black;
+
+        padding: auto;
+    }
 }
+

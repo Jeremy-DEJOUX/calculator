@@ -1,6 +1,12 @@
+const numbers = ['+', '-', '*', '/'];
+
+const elements = numbers.map((numbers) => <button className="btn_operators">{numbers}</button>)
+
 const GreatOperationButton = () => {
     return (
-        <h1> it's a GreatOperationButton</h1>
+        <div className="operatorsbutton">
+            {elements}
+        </div>
     )
 }
 
